@@ -90,7 +90,7 @@ Le fichier **requirements.txt** contient : pandas, numpy, yfinance, plotly, scip
 ### Démarrage rapide
 
 1. Placer les fichiers CSV dans le dossier `DATASETS/`
-2. Lancer Jupyter : `jupyter notebook POLISHED_FINAL.ipynb`
+2. Lancer Jupyter : `jupyter notebook FINAL.ipynb`
 3. Exécuter toutes les cellules : `Cell → Run All`
 4. Ouvrir les visualisations générées dans `OUTPUTS/HTML/`
 
