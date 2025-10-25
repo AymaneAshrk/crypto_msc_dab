@@ -41,6 +41,8 @@ Ce projet analyse les relations entre Bitcoin et différents actifs financiers (
 - 
 
 ## 📁 Structure du projet
+
+```
 crypto_analysis/
   ├── POLISHED_FINAL.ipynb
   ├── DATASETS/
@@ -56,7 +58,7 @@ crypto_analysis/
   │ ├── 4_regression_btc_sp500_animated.html
   │ └── 5_regression_btc_gold_animated.html
   └── requirements.txt
-
+```
 
 ## 🚀 Installation
 
