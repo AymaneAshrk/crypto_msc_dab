@@ -70,12 +70,17 @@ crypto_analysis/
 
 ### Étapes d'installation
 - Cloner le repository
-  
+```  
 git clone https://github.com/votre-username/crypto-analysis.git
 cd crypto-analysis
+```
 
 - Installer les dépendances
+
+
+```
 pip install -r requirements.txt
+```
 
 
 Le fichier **requirements.txt** contient : pandas, numpy, yfinance, plotly, scipy, jupyter
