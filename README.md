@@ -43,7 +43,7 @@ Ce projet analyse les relations entre Bitcoin et différents actifs financiers (
 
 ```
 crypto_analysis/
-  ├── POLISHED_FINAL.ipynb
+  ├── FINAL.ipynb
   ├── DATASETS/
   │ ├── btc_cap_price.csv
   │ └── global_crypto_cap.csv
