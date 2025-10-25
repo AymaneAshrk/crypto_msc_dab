@@ -42,20 +42,20 @@ Ce projet analyse les relations entre Bitcoin et différents actifs financiers (
 
 ## 📁 Structure du projet
 crypto_analysis/
-  ├── POLISHED_FINAL.ipynb # Notebook principal
-  ├── DATASETS/ # Données d'entrée
-  │ ├── btc_cap_price.csv # Prix et market cap BTC
-  │ └── global_crypto_cap.csv # Market cap crypto total
-  ├── OUTPUTS/ # Fichiers générés
+  ├── POLISHED_FINAL.ipynb
+  ├── DATASETS/
+  │ ├── btc_cap_price.csv
+  │ └── global_crypto_cap.csv
+  ├── OUTPUTS/
   │ ├── CSV/
-  │ │ └── Merged_df.csv # Dataset fusionné
-  │ └── HTML/ # Visualisations interactives
+  │ │ └── Merged_df.csv
+  │ └── HTML/
   │ ├── 1_correlation_matrix.html
   │ ├── 2_btc_spx_rolling_corr_dynamic.html
   │ ├── 3_btc_dominance_price_animated.html
   │ ├── 4_regression_btc_sp500_animated.html
   │ └── 5_regression_btc_gold_animated.html
-  └── requirements.txt # Dépendances Python
+  └── requirements.txt
 
 
 ## 🚀 Installation
