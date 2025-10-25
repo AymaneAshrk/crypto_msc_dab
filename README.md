@@ -38,7 +38,6 @@ Ce projet analyse les relations entre Bitcoin et différents actifs financiers (
 - 🗓️ Annotations d'événements économiques et crypto
 - 💾 Export CSV et HTML pour réutilisation et partage
 
-- 
 
 ## 📁 Structure du projet
 
