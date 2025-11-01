@@ -1,25 +1,30 @@
-# 📊 Bitcoin Market Analysis
+# 📊 Bitcoin Market Analysis & Financial Correlations
 
-> Analyse complète des corrélations entre Bitcoin et les marchés financiers traditionnels avec visualisations interactives animées
+> Dynamic correlations between Bitcoin and traditional markets with interactive visualizations  
+> **M2** — MSc Data Analytics for Business (KEDGE BS), 2025–2026
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![M2](https://img.shields.io/badge/Level-M2-purple)](https://kedge.edu/)
+[![KEDGE](https://img.shields.io/badge/Program-MSc%20DAB%20(KEDGE)-green)](https://kedge.edu/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
 ## 📋 Table des matières
 
-- [Aperçu](#aperçu)
-- [Fonctionnalités](#fonctionnalités)
-- [Structure du projet](#structure-du-projet)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Visualisations](#visualisations)
-- [Données](#données)
-- [Technologies](#technologies)
+- [Aperçu](#-aperçu)
+- [Fonctionnalités](#-fonctionnalités)
+- [Structure du projet](#-structure-du-projet)
+- [Installation](#-installation)
+- [Utilisation](#-utilisation)
+- [Visualisations](#-visualisations)
+- [Données](#-données)
+- [Technologies](#️-technologies)
 
 ## 🎯 Aperçu
 
-Ce projet analyse les relations entre Bitcoin et différents actifs financiers (S&P 500, NASDAQ, Or, Pétrole) sur la période 2022-2025. Il génère des visualisations interactives animées permettant d'explorer l'évolution des corrélations dans le temps et l'impact des événements macroéconomiques.
+Ce projet analyse les relations dynamiques entre Bitcoin et différents actifs financiers (S&P 500, NASDAQ, Or, Pétrole) sur la période 2022-2025. Il génère des visualisations interactives animées permettant d'explorer l'évolution des corrélations dans le temps et l'impact des événements macroéconomiques sur les marchés crypto.
+
+**Contexte académique :** Projet réalisé dans le cadre du M2 Data Analytics for Business à KEDGE Business School (2025–2026).
 
 ### Points clés analysés
 
@@ -35,28 +40,27 @@ Ce projet analyse les relations entre Bitcoin et différents actifs financiers (
 - 🎨 Heatmaps de corrélation avec sélecteur de périodes
 - 📈 Rolling correlation sur fenêtre glissante de 30 jours
 - 🎯 Analyses de régression dynamiques avec calcul du β (bêta)
-- 🗓️ Annotations d'événements économiques et crypto
+- 🗺️ Annotations d'événements économiques et crypto
 - 💾 Export CSV et HTML pour réutilisation et partage
-
 
 ## 📁 Structure du projet
 
 ```
-crypto_analysis/
-  ├── FINAL.ipynb
-  ├── DATASETS/
-  │ ├── btc_cap_price.csv
-  │ └── global_crypto_cap.csv
-  ├── OUTPUTS/
-  │ ├── CSV/
-  │ │ └── Merged_df.csv
-  │ └── HTML/
-  │ ├── 1_correlation_matrix.html
-  │ ├── 2_btc_spx_rolling_corr_dynamic.html
-  │ ├── 3_btc_dominance_price_animated.html
-  │ ├── 4_regression_btc_sp500_animated.html
-  │ └── 5_regression_btc_gold_animated.html
-  └── requirements.txt
+Bitcoin-Market-Analysis-Correlations/
+├── FINAL.ipynb
+├── DATASETS/
+│ ├── btc_cap_price.csv
+│ └── global_crypto_cap.csv
+├── OUTPUTS/
+│ ├── CSV/
+│ │ └── Merged_df.csv
+│ └── HTML/
+│ ├── 1_correlation_matrix.html
+│ ├── 2_btc_spx_rolling_corr_dynamic.html
+│ ├── 3_btc_dominance_price_animated.html
+│ ├── 4_regression_btc_sp500_animated.html
+│ └── 5_regression_btc_gold_animated.html
+└── requirements.txt
 ```
 
 ## 🚀 Installation
@@ -68,19 +72,17 @@ crypto_analysis/
 - Connexion internet (pour télécharger les données Yahoo Finance)
 
 ### Étapes d'installation
-- Cloner le repository
-```  
-git clone https://github.com/votre-username/crypto-analysis.git
-cd crypto-analysis
+
+1. **Cloner le repository**
+```bash
+git clone https://github.com/AymaneAshrk/crypto_msc_dab.git
+cd crypto_msc_dab
 ```
 
-- Installer les dépendances
-
-
-```
+2. **Installer les dépendances**
+```bash
 pip install -r requirements.txt
 ```
-
 
 Le fichier **requirements.txt** contient : pandas, numpy, yfinance, plotly, scipy, jupyter
 
@@ -133,16 +135,20 @@ Le fichier `btc_cap_price.csv` doit contenir les colonnes : date, price, market_
 ## 📈 Structure du Notebook
 
 | Section | Description | Sorties |
-|---------|-------------|---------|
+|---------|-------------|---------||
 | **1️⃣ Configuration** | Imports, chemins, paramètres, événements | Variables globales |
 | **2️⃣ Functions** | Fonctions réutilisables (nettoyage, corrélations, régressions) | 9 fonctions |
 | **3️⃣ ETL Pipeline** | Extract → Transform → Load → Export | Merged_df.csv |
 | **4️⃣ Calculations** | Corrélations, rolling metrics, préparation régression | Matrices, séries |
 | **5️⃣ Visualizations** | Création des 5 graphiques interactifs | 5 fichiers HTML |
 
+---
 
+**Auteur** : Aymane Ashrk  
+**Formation** : M2 Data Analytics for Business - KEDGE Business School  
+**Année académique** : 2025-2026  
+**Portfolio** : [GitHub](https://github.com/AymaneAshrk)
 
 ---
 
-
-
+*Ce projet démontre une approche avancée de l'analyse financière quantitative, combinant techniques statistiques modernes et visualisation interactive pour l'analyse des marchés cryptocurrency.*
