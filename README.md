@@ -135,7 +135,7 @@ Le fichier `btc_cap_price.csv` doit contenir les colonnes : date, price, market_
 ## 📈 Structure du Notebook
 
 | Section | Description | Sorties |
-|---------|-------------|---------||
+|---------|-------------|---------|
 | **1️⃣ Configuration** | Imports, chemins, paramètres, événements | Variables globales |
 | **2️⃣ Functions** | Fonctions réutilisables (nettoyage, corrélations, régressions) | 9 fonctions |
 | **3️⃣ ETL Pipeline** | Extract → Transform → Load → Export | Merged_df.csv |
