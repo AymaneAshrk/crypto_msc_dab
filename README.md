@@ -1,9 +1,9 @@
-# 📊 Bitcoin Market Analysis & Financial Correlations
+# 📊 Projet M2 - Analyse du Marché Bitcoin et Corrélations Financières
 
-> Dynamic correlations between Bitcoin and traditional markets with interactive visualizations  
+> Analyse des corrélations dynamiques entre Bitcoin et les marchés financiers traditionnels (S&P 500, NASDAQ, Or). Développement de visualisations interactives animées avec analyses de régression temporelles et impact des événements macroéconomiques.
 > **M2** — MSc Data Analytics for Business (KEDGE BS), 2025–2026
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![M2](https://img.shields.io/badge/Level-M2-purple)](https://kedge.edu/)
 [![KEDGE](https://img.shields.io/badge/Program-MSc%20DAB%20(KEDGE)-green)](https://kedge.edu/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -46,7 +46,7 @@ Ce projet analyse les relations dynamiques entre Bitcoin et différents actifs f
 ## 📁 Structure du projet
 
 ```
-Bitcoin-Market-Analysis-Correlations/
+analyse-marche-bitcoin-correlations/
 ├── FINAL.ipynb
 ├── DATASETS/
 │ ├── btc_cap_price.csv
@@ -67,7 +67,7 @@ Bitcoin-Market-Analysis-Correlations/
 
 ### Prérequis
 
-- Python 3.8 ou supérieur
+- Python 3.12 ou supérieur
 - Jupyter Notebook / JupyterLab
 - Connexion internet (pour télécharger les données Yahoo Finance)
 
@@ -144,7 +144,7 @@ Le fichier `btc_cap_price.csv` doit contenir les colonnes : date, price, market_
 
 ---
 
-**Auteur** : Aymane Ashrk  
+**Auteur** : Aymane Acharki  
 **Formation** : M2 Data Analytics for Business - KEDGE Business School  
 **Année académique** : 2025-2026  
 **Portfolio** : [GitHub](https://github.com/AymaneAshrk)
